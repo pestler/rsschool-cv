@@ -33,7 +33,7 @@
 ## Work experience:
 
 - GeekBrains programming courses
-- HtmlAcademy profil
+- [HtmlAcademy profil](https://htmlacademy.ru/profile/olehkuis/achievements)
 - online YouTube courses (RSS, Minin, from 0 to 1, freelancer for life, Lavrik, WDB)
 
 ## Education:
