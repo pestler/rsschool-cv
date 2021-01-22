@@ -33,7 +33,7 @@
 ## Work experience:
 
 - GeekBrains programming courses
-- HtmlAcademy
+- HtmlAcademy profil
 - online YouTube courses (RSS, Minin, from 0 to 1, freelancer for life, Lavrik, WDB)
 
 ## Education:
