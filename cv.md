@@ -12,23 +12,36 @@
 
 ## Information about yourself:
 
-
+- worked as a system administrator, manager, but i  want to become a programmer
+- target: study js, react, english 
 
 ## Skills:
 
+- ide:  webstorm, atom, vscode
+- html(bem), css, js, react-redux
+- wp, joomla, drupal
+- msql, git
 
 ## Сode example:
 
+```
+ function reverseStr(string) {
+  return string.split("").reverse().join("")
+ }
+ reverseStr("Hello")
+ ```
    
 ## Work experience:
 
-
+- GeekBrains programming courses
+- [HtmlAcademy profil](https://htmlacademy.ru/profile/olehkuis/achievements)
+- online YouTube courses (RSS, Minin, from 0 to 1, freelancer for life, Lavrik, WDB)
 
 ## Education:
 
-
+- geekbrains, htmlAcademy, yotube-channel
 
 ## English:
 
-
+- A2
 
