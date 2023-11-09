@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {    
+    color: #24292e;
+    margin: 0 auto;
+    background-color: gray;
+    width: 1280px;
+    font-size: large;
+  }
+  html{
+    scroll-behavior: smooth;
+    }
