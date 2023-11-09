@@ -5,41 +5,48 @@
 ## Contacts for communication:
 
 - tel.: 8-029-5576089
-- e-mail: <oleh@tut.by>
+- e-mail: <pestleralex@gmail.com>
 - discord: Aleh Kuis(@pestler)
 - [github:@pestler](https://github.com/pestler)
 - telegram: [_@pestler_](https://t.me/@pestler)
 
 ## Information about yourself:
 
-- worked as a system administrator, manager, but i  want to become a programmer
-- target: study js, react, english 
+- I wrote my first program in BASIC, a long time ago.
+- While assembling computers, I became acquainted with the computer network.
+- Then I made a website in WordPress, it’s easy.
+- WordPress is limited in its capabilities,
+- but js and react are not.
+- I want to complete the course in full and create an online e-commerce store
 
 ## Skills:
 
-- ide:  webstorm, atom, vscode
-- html(bem), css, js, react-redux
-- wp, joomla, drupal
-- msql, git
+- HTML, CSS 
+- JavaScript 
+- Git, GitHub
+- VS Code, Atom
+- Figma, Adobe Photoshop, CorelDraw
+
 
 ## Сode example:
 
 ```
- function reverseStr(string) {
-  return string.split("").reverse().join("")
- }
- reverseStr("Hello")
+ function nicknameGenerator(name){
+    return (name.length <4 ? "Error: Name too short" :
+    /^\w{2}[aeiou]/i.test(name)?
+    name.slice(0,4): name.slice(0,3)
+    )} 
  ```
    
 ## Work experience:
 
-- GeekBrains programming courses
+
 - [HtmlAcademy profil](https://htmlacademy.ru/profile/olehkuis/achievements)
-- online YouTube courses (RSS, Minin, from 0 to 1, freelancer for life, Lavrik, WDB)
+- [Freecodecamp](https://www.freecodecamp.org/pestler)
 
 ## Education:
 
-- geekbrains, htmlAcademy, yotube-channel
+- Minsk State Machine-Building College, programmed machine tool operator (CNC)
 
 ## English:
 
