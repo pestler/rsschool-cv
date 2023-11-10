@@ -162,7 +162,7 @@ html {
 
 
 .photo {
-    background: url('/assets/cv-photo.jpg') no-repeat center;
+    background: url('assets/cv-photo.jpg') no-repeat center;
     background-size: cover;
     border-radius: 50%;
     width: 260px;
