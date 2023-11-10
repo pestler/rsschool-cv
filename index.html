@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Aleh Kuis</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">    
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="icon" href="./img/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="/assets/photo.ico">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="header-wrapper">
+    <header class="header">        
             <nav class="header-wrapper-navigation">
                 <ul class="navigation-list">
                     <li class="navigation-item">
@@ -37,14 +39,13 @@
                         <a href="#languages">Languages</a>
                     </li>
                 </ul>
-            </nav>
-        </div>
+            </nav>        
     </header>
     <div class="presentation-wrapper">
-        <div class="foto-wrapper">
-            <img src="assets/img/cv-foto.jpg" alt="Kuis Aleh foto">
+        <div class="photo-wrapper">
+            <div class="photo"></div>
         </div>
-        <div class="presentation-wrapper">
+        <div class="presentation">
             <h1>Kuis Aleh</h1>
             <h3>Frontend-developer<br>from Minsk</h3>
             <p>I am a curious and hardworking person. I am constantly learning and improving my skills every day.
@@ -57,7 +58,7 @@
         </div>
     </div>
     <main class="main">
-        <section class="contacts-section" id="contacts">
+        <section class="contacts-section section" id="contacts">
             <h2>Contact information</h2>
             <ul class="contacts-list">
                 <li class="contacts-section-item">
@@ -86,15 +87,15 @@
                 </li>
             </ul>
         </section>
-        <section class="about-section" id="about">
-            <h2>about myself</h2>
+        <section class="about-section section" id="about">
+            <h2>About myself</h2>
             <p>I wrote my first program in BASIC, a long time ago. While assembling computers, I became acquainted with
                 the computer network.</p>
             <p> Then I made a website in WordPress, it’s easy. WordPress is limited in its capabilities, but js and
                 react are not.</p>
             <p> I want to complete the course in full and create an online e-commerce store.</p>
         </section>
-        <section class="skills-section" id="skills">
+        <section class="skills-section section" id="skills">
             <h2>Skills</h2>
             <ul class="skills-section-list">
                 <li class="skills-section-item">HTML,<br>CSS</li>
@@ -105,52 +106,51 @@
                 <li class="skills-section-item">Figma,<br>Adobe Photoshop, CorelDraw</li>
             </ul>
         </section>
-        <section class="code-section" id="code">
+        <section class="code-section section" id="code">
             <h2>Code example</h2>
-            <pre class="code">
+            <pre class="pre-code">
                 <code class="code">
-                        function nicknameGenerator(name){
-                        return(
-                        name.length &lt; 4 ? "Error: Name too short" :
-                        /^\w{2}[aeiou]/i.test(name)?
-                        name.slice(0,4): name.slice(0,3)
-                        )}
+    <span class="blue">function </span><span class="yellow">nicknameGenerator </span>(<span class="lightblue">name</span>) {
+        <span class="purple">return </span>(
+        <span class="greenish">name.length &lt; 4 ? "Error: Name too short" :</span>
+        <span class="greenish">/^\w{2}[aeiou]/i.test(name) ?</span>
+        <span class="greenish">name.slice(0,4) : name.slice(0,3)</span>
+        <span >)}</span>
                 </code>
             </pre>
         </section>
-        <section class="experience-section" id="experience">
+        <section class="experience-section section" id="experience">
             <h2>Work experience and education</h2>
-            <ul class="experience-section-list">
-                <li><a href="https://htmlacademy.ru/profile/olehkuis/achievements"><b>HtmlAcademy profil</b></a></li>
-                <li><a href="https://www.freecodecamp.org/pestler"><b>Freecodecamp</b></a></li>
+            <ul class="experience-section-list" id="education">
+                <li><a href="https://htmlacademy.ru/profile/olehkuis/achievements">HtmlAcademy profil</a></li>
+                <li><a href="https://www.freecodecamp.org/pestler">Freecodecamp</a></li>
             </ul>
         </section>
-        <section class="languages-section" id="languages">
+        <section class="languages-section section" id="languages">
             <h2>Languages</h2>
-            <p><b>English:</b>A2</p>
-            <p><b>Russian:</b> native.</p>
+            <h4>English: A2</h4>
+            <h4>Russian: native.</h4>
         </section>
     </main>
     <footer class="footer">
-        <div class="footer-wrapper">
-            <nav class="footer-links">
+        <div class="footer-wrapper">            
                 <ul class="footer-list">
                     <li class="footer-item">
-                        <a href="https://rs.school/js/">rs.school/js
-                            <img id="rss-logo" src="assets/svg/logo.svg" alt="RSS logo">
+                        <a href="https://rs.school/js/">rs.school/js                            
                         </a>
+                        <img id="rss-logo" src="assets/logo.svg" alt="RSS logo">
                     </li>
                     <li class="footer-item">
                         <span>2023</span>
                     </li>
                     <li class="footer-item">
-                        <a href="https://github.com/pestler/">main github
-                            <img id="github-logo" src="assets/svg/github-logo.svg" alt="github logo">
+                        <a href="https://github.com/pestler/">main github                            
                         </a>
+                        <img id="github-logo" src="assets/gitHub-logo.svg" alt="github logo">
                     </li>
-                </ul>
-            </nav>
+                </ul>            
         </div>
     </footer>
 </body>
+
 </html>
