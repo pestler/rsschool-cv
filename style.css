@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
     font-size: 16px;
     color: #D5D5D5;
 }
@@ -17,7 +18,7 @@ body {
 .presentation-wrapper,
 .main,
 .footer{
-    max-width: 1280px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -30,8 +31,8 @@ html {
     justify-content: space-between;
 }
 
-h1 {
-    font-family:  sans-serif;
+h1 {    
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 56px;
@@ -41,6 +42,7 @@ h1 {
 }
 
 h2 {    
+    font-family: 'Nunito', 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 42px;
     color: #aaa;
@@ -86,4 +88,13 @@ a b, li b {
 
 ul > li {
     list-style-type: none;
+}
+
+.colortext {
+    color: rgb(194, 185, 144);
+}
+
+.underline {
+    text-decoration-line: underline;
+    color: #ACBFE3;
 }
